@@ -4,21 +4,73 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rocket Haul</title>
-  <meta name="description" content="Rocket Haul: fire a rocket into the sky, dodge everything on the way up, beam it all up on the way down, then blast your haul for cash.">
+  <meta name="description" content="Rocket Haul: fire a rocket into the sky, dodge everything on the way up, beam it all up on the way down, then blast your haul for cash. Free on iPhone and Android.">
+  <meta property="og:title" content="Rocket Haul">
+  <meta property="og:description" content="Dodge up. Grab down. Blast it all. Five skies, five giant bosses, seven guns and thirty challenges. Free on iPhone and Android.">
+  <meta property="og:image" content="https://rockethaul.waxnostalgicgames.com/og.png">
+  <meta property="og:url" content="https://rockethaul.waxnostalgicgames.com/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#3f7fd0">
   <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="icon.png" alt="Rocket Haul app icon">
-    <h1>Rocket Haul</h1>
-    <p>Dodge up. Grab down. Blast it all.</p>
+  <header class="hero">
+    <h1 class="brand"><img class="logo" src="logo.png" alt="Rocket Haul" width="800" height="292"></h1>
+    <p class="tagline">Dodge up. Grab down. Blast it all.</p>
     <nav><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
+    <figure class="screen">
+      <video controls playsinline preload="metadata" poster="shots/poster.png" width="1080" height="1920">
+        <source src="trailer.mp4" type="video/mp4">
+        <img src="shots/poster.png" alt="Rocket Haul's home screen: the rocket on its launch pad in Pinecrest, with the LAUNCH button." width="540" height="960">
+      </video>
+    </figure>
+    <p class="stores"><a href="https://apps.apple.com/app/rocket-haul/id6816529096">Get it on the App Store</a><a href="https://play.google.com/store/apps/details?id=com.webdevbrian.skyhaul">Get it on Google Play</a></p>
   </header>
+
   <main>
-    <p>Fire your rocket into the sky and dodge birds, planes, satellites and UFOs on the way up. When you stall, flip nose-down and tractor-beam everything you touch on the way back. Land, fling the whole haul into the air, and shoot it all for cash. Then upgrade and go higher.</p>
-    <p>Five skies, five giant bosses, seven guns and thirty challenges. No ads, no accounts, no in-app purchases.</p>
+    <section class="intro">
+      <p>Fire your rocket into the sky and dodge birds, balloons, planes, satellites and UFOs on the way up. When you stall, flip nose-down and tractor-beam everything you touch on the way back. Land, fling the whole haul into the air, and shoot it all for cash. Then upgrade and go higher.</p>
+    </section>
+
+    <section class="how">
+      <div><img src="shots/dodge.png" alt="The rocket climbing through a pink sunset sky past blimps, planes and weather balloons, its boost button glowing." width="570" height="1209" loading="lazy"><h2>Dodge up</h2><p>Tilt to steer through everything in the sky. Hold the screen to boost. The first thing you hit stalls your rocket, so dodge well and climb high.</p></div>
+      <div><img src="shots/grab.png" alt="The rocket falling nose-down through a flock of geese, its tractor beam pulling them in." width="570" height="1209" loading="lazy"><h2>Grab down</h2><p>Flip nose-down and fall back to Earth, tractor-beaming everything you touch. Pop your parachute to slow down and line up the big catches.</p></div>
+      <div><img src="shots/blast.png" alt="The haul flung into the air over the launch pad, birds and planes bursting into cash as they're shot." width="570" height="1209" loading="lazy"><h2>Blast it all</h2><p>Land, fling the whole haul into the air and shoot it for cash before it hits the ground. Shoot everything for a Clean Sweep bonus. Just don't shoot the jellies.</p></div>
+    </section>
+
+    <section class="features">
+      <h2>Five skies, five giant bosses</h2>
+      <ul>
+        <li><strong>Five skies to climb:</strong> from sleepy Pinecrest to a sunset island, the northern lights, a neon city at night and the Moon itself, each with its own creatures.</li>
+        <li><strong>A giant boss at the top of every sky:</strong> the Sky Whale, the Space Kraken, the Aurora Dragon, the Mothership and the Cosmic Goose. Catch it to open the next sky.</li>
+        <li><strong>Seven guns,</strong> from the Pea Pistol to the Laser Gun, each with its own upgrades.</li>
+        <li><strong>Upgrades to go higher:</strong> bigger fuel tanks, a wider tractor beam, a ram shield, boosters, parachutes and slow-mo. And paint jobs for your rocket, because looking good matters.</li>
+        <li><strong>Thirty challenges:</strong> grab one of everything, clean-sweep a huge haul, climb without touching a thing, and find the secret ones.</li>
+        <li><strong>Tilt or touch steering,</strong> and it plays offline.</li>
+      </ul>
+    </section>
+
+    <section class="gallery">
+      <figure><img src="shots/kraken.png" alt="The Space Kraken, a purple octopus, among the stars as the rocket falls past it." width="570" height="1209" loading="lazy"><figcaption>The Space Kraken</figcaption></figure>
+      <figure><img src="shots/dragon.png" alt="The Aurora Dragon, a green sky serpent, winding past the rocket in the northern lights." width="570" height="1209" loading="lazy"><figcaption>The Aurora Dragon</figcaption></figure>
+      <figure><img src="shots/goose.png" alt="The Cosmic Goose, a golden goose in a purple hat, among the stars as the rocket falls past it." width="570" height="1209" loading="lazy"><figcaption>The Cosmic Goose</figcaption></figure>
+      <figure><img src="shots/map.png" alt="The map of the five skies: Pinecrest, Coconut Key, Frostpeak, Neon City and Moonbase." width="570" height="1209" loading="lazy"><figcaption>Five skies to open</figcaption></figure>
+      <figure><img src="shots/shop.png" alt="The shop's rocket paint jobs, from Classic to Solid Gold." width="570" height="1209" loading="lazy"><figcaption>Paint jobs and upgrades</figcaption></figure>
+      <figure><img src="shots/report.png" alt="The haul report after a run: every catch, its cash, a Clean Sweep bonus and the total." width="570" height="1209" loading="lazy"><figcaption>Every haul, counted</figcaption></figure>
+    </section>
+
+    <section class="price card">
+      <h2>Free, the whole game</h2>
+      <p>Rocket Haul is free, with <strong>no ads, no accounts and no in-app purchases</strong>. Every sky, boss, gun, upgrade and paint job is yours to earn by playing, and nothing you do is collected.</p>
+    </section>
   </main>
-  <footer>© 2026 Brian Kinney</footer>
+
+  <footer>
+    <nav><a href="support.html">Support</a><a href="privacy.html">Privacy Policy</a></nav>
+    <p>A <a href="https://waxnostalgicgames.com/">Wax Nostalgic Games</a> game · © 2026 Brian Kinney</p>
+  </footer>
 </body>
 </html>
